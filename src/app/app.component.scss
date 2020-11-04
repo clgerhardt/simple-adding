@@ -1,0 +1,10 @@
+.app {
+    height: 100%;
+    background-color: rgba(magenta, 0.6);
+    display: flex;
+    justify-content: center;
+}
+
+.app > app-simple-adding {
+    align-self: center;
+}

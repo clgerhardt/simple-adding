@@ -1,0 +1,15 @@
+<form [formGroup]="addingForm" (submit)="addNumbers()" class="parent">
+    <mat-form-field autoFocus>
+        <div style="text-align:center;">
+            <input type="number" formControlName="firstNumber" matInput>
+        </div>
+    </mat-form-field>
+    <mat-icon>add</mat-icon>
+    <mat-form-field autoFocus>
+        <div style="text-align:center;">
+            <input type="number" formControlName="secondNumber" matInput>
+        </div>
+    </mat-form-field>
+    <button style="margin-left: 2%; background-color: rgba(255,255,255,0) !important;" mat-flat-button> <h2>=</h2></button>
+</form>
+<p style="color: white; text-align: center; width: 85%; font-size: 26px;">{{result}}</p>    
